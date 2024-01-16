@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap');
+* {
+    font-family: 'Mulish', sans-serif;
+}
+   
+.primary-color {
+    color: #FF5400;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+.nav-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+.navbar ul {
+    display: flex;
+    gap: 44px;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+}
+.banner {
+    position: relative;
+    background: linear-gradient(180deg,
+    rgba(19, 19, 24, 0.8)0%,
+    rgba(19, 19, 24, 0))100%, url(./Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat center;
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+.input {
+    width: 630px;
+    display: inline-flex;
+    padding: 16px;
+    gap: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+}
+.banner-title {
+    font-size: 50px;
+    font-weight: 800;
+}
+.btn-primary {
+    padding: 05px 10px;
+    border-radius: 8px;
+    background: #FF5400;
+}
