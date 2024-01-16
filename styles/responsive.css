@@ -10,5 +10,11 @@
     .input {
         flex-direction: column;
     }
-    
+}
+@media (max-width: 600px) {
+    .tours, .perfect-place {
+        flex-direction: column;
+        width: 100%;
+        padding: auto;
+    }
 }
