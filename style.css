@@ -6,11 +6,21 @@
 .primary-color {
     color: #FF5400;
 }
+.nav-logo {
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+}
+.nav-logo img {
+    width: 50px;
+}
 .navbar {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
+    margin: 0 auto;
 }
 .nav-title {
     font-size: 36px;
@@ -31,14 +41,14 @@
     background: linear-gradient(180deg,
     rgba(19, 19, 24, 0.8)0%,
     rgba(19, 19, 24, 0))100%, url(./Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat center;
-    width: 1200px;
+    max-width: 1200px;
     height: 500px;
     overflow: hidden;
     margin: auto;
 }
 .input {
-    width: 630px;
-    display: inline-flex;
+    width: 650px;
+    display: flex;
     padding: 16px;
     gap: 15px;
     border-radius: 8px;
@@ -53,11 +63,41 @@
     color: #FFF;
 }
 .banner-title {
-    font-size: 50px;
+    font-size: 3.4em;
     font-weight: 800;
 }
 .btn-primary {
     padding: 05px 10px;
     border-radius: 8px;
     background: #FF5400;
+}
+/* footer style */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    max-width: 1200px;
+    height: 400px;
+    margin: 50px auto;
+}
+.f-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.f-para {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+.rights P {
+    text-align: center;
+}
+.social {
+    margin: 20px 20px;
+    text-align: center;
+}
+hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
 }
