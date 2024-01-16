@@ -86,9 +86,6 @@
     font-size: 40px;
     font-weight: 800;
 }
-.title-2 {
-    width: 448px;
-}
 .description {
     color: #5A5A5D;
     font-size: 16px;
@@ -116,6 +113,32 @@
 }
 .iframe {
     width: 50%;
+}
+/* newsletter style */
+.newsletter-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 440px;
+    height: 422px;
+    border: 1px solid #FF5400;
+}
+.newsletter input, button {
+   padding: 5px;
+   margin-top: 5px;
+   height: 50px;
+   border-radius: 8px;
+   
+}
+.newsletter-image {
+    width: 672px;
+    height: 422px;
 }
 /* footer style */
 .footer {
